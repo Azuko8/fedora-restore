@@ -1,6 +1,6 @@
 Set of scripts that I use to make my life easier whenever I decide to reinstall. Mostly intended for personal use. Will include : 
 
-KDE ✅ <br> curl -fsSL https://raw.githubusercontent.com/Azuko8/fedora-restore/main/fedora-kde-setup.sh | bash
+KDE ✅ (curl -fsSL https://raw.githubusercontent.com/Azuko8/fedora-restore/main/fedora-kde-setup.sh | bash) <br>
 Cinnamon <br>
 GNOME <br>
 COSMIC
