@@ -1,16 +1,16 @@
 #!/usr/bin/env bash
 
-# Fedora KDE Setup Script
+# Fedora Cinnamon Setup Script
 # Removes bloat and installs stuff I need
-# For personal use on Fedora 44 (KDE)
+# For personal use on Fedora 44 (Cinnamon)
 
 set -euo pipefail
 
 echo "=========================================="
-echo "Fedora KDE Setup Script"
+echo "Fedora Cinnamon Setup Script"
 echo "=========================================="
 echo ""
-echo "OS: Fedora 44 (KDE)"
+echo "OS: Fedora 44 (Cinnamon)"
 echo ""
 echo "Software to be installed manually post-script:"
 echo "  • Signal"
@@ -25,27 +25,10 @@ echo "Removing bloat"
 echo ""
 
 REMOVE_PACKAGES=(
-    neochat
-    ktnef
-    kleopatra
-    kontact
-    kaddressbook
-    kwrite
-    konsole
     firefox
-    akregator
-    k3b
-    kde-connect
-    kde-partitionmanager
-    kmahjongg
-    kmail
-    kmines
-    kmouth
-    korganizer
-    krfb
-    krusader
-    ktorrent
-    shotwell
+    exaile
+    xed
+    thunderbird
 )
 
 echo "Removing ${#REMOVE_PACKAGES[@]} packages..."
