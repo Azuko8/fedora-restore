@@ -1,4 +1,4 @@
-Set of scripts that I use to make my life easier whenever I decide to reinstall. Mostly intended for personal use. Will include : 
+Set of scripts that I use to make my life easier whenever I decide to reinstall. Mostly intended for personal use. Will include (cinnamon and cosmic will be merged into one since they will do the same thing): 
 
 KDE ✅ 
 ```bash
