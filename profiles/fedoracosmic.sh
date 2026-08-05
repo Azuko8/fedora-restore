@@ -17,6 +17,7 @@ echo "  • Signal"
 echo "  • Vesktop"
 echo "  • osu!"
 echo "  • pear-desktop"
+echo "  • Librewolf"
 echo ""
 echo "=========================================="
 echo ""
@@ -73,7 +74,7 @@ if flatpak install -y flathub \
     com.notesnook.Notesnook \
     com.obsproject.Studio \
     io.github.Foldex.AdwSteamGtk \
-    io.gitlab.librewolf-community \
+    org.keepassxc.KeePassXC \
     it.mijorus.gearlever \
     net.davidotek.pupgui2 \
     org.fedoraproject.MediaWriter \
