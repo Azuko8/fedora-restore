@@ -1,30 +1,28 @@
 #!/usr/bin/env bash
-
 set -euo pipefail
 
-case "${XDG_CURRENT_DESKTOP:-}" in
+desktop="${XDG_CURRENT_DESKTOP:-}"
+
+case "$desktop" in
     KDE*)
-       curl -fsSL \
-            https://raw.githubusercontent.com/Azuko8/fedora-restore/main/profiles/fedorakde.sh \
-            | bash
-            ;;
+        profile="fedorakde.sh"
+        ;;
     GNOME*)
-        curl -fsSL \
-            https://raw.githubusercontent.com/Azuko8/fedora-restore/main/profiles/fedoraws.sh \
-            | bash
-            ;;
-    X-Cinnamon*)
-        curl -fsSL \
-            https://raw.githubusercontent.com/Azuko8/fedora-restore/main/profiles/fedoracinnamon.sh \
-            | bash
-            ;;
+        profile="fedoraws.sh"
+        ;;
+    X-Cinnamon*|Cinnamon*)
+        profile="fedoracinnamon.sh"
+        ;;
     COSMIC*)
-        curl -fsSL \
-            https://raw.githubusercontent.com/Azuko8/fedora-restore/main/profiles/fedoracosmic.sh \
-            | bash
-            ;;
+        profile="fedoracosmic.sh"
+        ;;
     *)
         echo "Unsupported desktop."
+        echo "XDG_CURRENT_DESKTOP=${XDG_CURRENT_DESKTOP:-<unset>}"
+        echo "XDG_SESSION_DESKTOP=${XDG_SESSION_DESKTOP:-<unset>}"
+        echo "DESKTOP_SESSION=${DESKTOP_SESSION:-<unset>}"
         exit 1
         ;;
 esac
+
+curl -fsSL "https://raw.githubusercontent.com/Azuko8/fedora-restore/main/profiles/$profile" | bash
