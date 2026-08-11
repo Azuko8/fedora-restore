@@ -13,7 +13,7 @@ case "${XDG_CURRENT_DESKTOP:-}" in
             https://raw.githubusercontent.com/Azuko8/fedora-restore/main/profiles/fedoraws.sh \
             | bash
             ;;
-    Cinnamon*)
+    X-Cinnamon*)
         curl -fsSL \
             https://raw.githubusercontent.com/Azuko8/fedora-restore/main/profiles/fedoracinnamon.sh \
             | bash
