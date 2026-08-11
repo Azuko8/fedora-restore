@@ -29,7 +29,6 @@ REMOVE_PACKAGES=(
     firefox
     thunderbird #forgot if it comes with WS, but just in case
     gnome-contacts
-    
 )
 
 echo "Removing ${#REMOVE_PACKAGES[@]} packages..."
@@ -45,7 +44,7 @@ echo ""
 echo "Installing dnf packages..."
 echo ""
 
-if sudo dnf install -y fish kitty steam; then
+if sudo dnf install -y fish kitty steam git micro; then
     echo "dnf packages installed successfully."
 else
     echo "Error: dnf installation failed."
