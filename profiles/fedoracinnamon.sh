@@ -30,6 +30,9 @@ REMOVE_PACKAGES=(
     exaile
     xed
     thunderbird
+    hexchat
+    pidgin
+    xfburn
 )
 
 echo "Removing ${#REMOVE_PACKAGES[@]} packages..."
