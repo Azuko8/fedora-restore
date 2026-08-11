@@ -66,7 +66,7 @@ echo ""
 echo "Installing dnf packages..."
 echo ""
 
-if sudo dnf install -y fish kitty steam; then
+if sudo dnf install -y fish kitty steam git micro; then
     echo "dnf packages installed successfully."
 else
     echo "Error: dnf installation failed."
