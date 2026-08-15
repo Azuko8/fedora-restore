@@ -35,9 +35,6 @@ REMOVE_PACKAGES=(
     konsole
     firefox
     akregator
-    gnome-calculator
-    exaile
-    gnome-software
     k3b
     kde-connect
     kde-partitionmanager
@@ -49,8 +46,6 @@ REMOVE_PACKAGES=(
     krfb
     krusader
     ktorrent
-    shotwell
-    xed
 )
 
 echo "Removing ${#REMOVE_PACKAGES[@]} packages..."
