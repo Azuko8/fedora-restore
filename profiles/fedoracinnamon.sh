@@ -29,7 +29,6 @@ REMOVE_PACKAGES=(
     firefox
     exaile
     xed
-    thunderbird
     hexchat
     pidgin
     xfburn
