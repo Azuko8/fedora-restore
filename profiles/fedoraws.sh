@@ -27,7 +27,6 @@ echo ""
 
 REMOVE_PACKAGES=(
     firefox
-    thunderbird #forgot if it comes with WS, but just in case
     gnome-contacts
 )
 
