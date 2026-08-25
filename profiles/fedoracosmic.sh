@@ -27,7 +27,6 @@ echo ""
 
 REMOVE_PACKAGES=(
     firefox
-    thunderbird
     nheko
 )
 
