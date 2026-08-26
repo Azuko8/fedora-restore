@@ -32,6 +32,7 @@ REMOVE_PACKAGES=(
     hexchat
     pidgin
     xfburn
+    gnome-software
 )
 
 echo "Removing ${#REMOVE_PACKAGES[@]} packages..."
@@ -81,6 +82,7 @@ if flatpak install -y flathub \
     it.mijorus.gearlever \
     net.davidotek.pupgui2 \
     org.fedoraproject.MediaWriter \
+    io.github.kolunmi.Bazaar \
     org.prismlauncher.PrismLauncher; then
     echo "Flatpak packages installed successfully."
 else
