@@ -72,7 +72,6 @@ echo ""
 if flatpak install -y flathub \
     com.notesnook.Notesnook \
     com.obsproject.Studio \
-    io.github.Foldex.AdwSteamGtk \
     org.keepassxc.KeePassXC \
     it.mijorus.gearlever \
     net.davidotek.pupgui2 \
