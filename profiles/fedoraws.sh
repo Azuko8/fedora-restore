@@ -16,7 +16,7 @@ echo "Software to be installed manually post-script:"
 echo "  • Signal"
 echo "  • Vesktop"
 echo "  • osu!"
-echo "  • pear-desktop"
+echo "  • limusic"
 echo "  • Librewolf"
 echo ""
 echo "=========================================="
@@ -43,7 +43,7 @@ echo ""
 echo "Installing dnf packages..."
 echo ""
 
-if sudo dnf install -y fish kitty steam git micro; then
+if sudo dnf install -y fish kitty steam git micro gnome-tweaks; then
     echo "dnf packages installed successfully."
 else
     echo "Error: dnf installation failed."
@@ -75,6 +75,7 @@ if flatpak install -y flathub \
     org.keepassxc.KeePassXC \
     it.mijorus.gearlever \
     net.davidotek.pupgui2 \
+    io.github.debasish_patra_1987.linuxthemestore \
     com.mattjakeman.ExtensionManager \
     org.fedoraproject.MediaWriter \
     org.prismlauncher.PrismLauncher; then
