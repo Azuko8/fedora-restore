@@ -16,7 +16,7 @@ echo "Software to be installed manually post-script:"
 echo "  • Signal"
 echo "  • Vesktop"
 echo "  • osu!"
-echo "  • pear-desktop"
+echo "  • limusic
 echo "  • Librewolf"
 echo ""
 echo "=========================================="
@@ -81,6 +81,7 @@ if flatpak install -y flathub \
     it.mijorus.gearlever \
     net.davidotek.pupgui2 \
     org.fedoraproject.MediaWriter \
+    io.github.debasish_patra_1987.linuxthemestore \
     io.github.kolunmi.Bazaar \
     org.prismlauncher.PrismLauncher; then
     echo "Flatpak packages installed successfully."
