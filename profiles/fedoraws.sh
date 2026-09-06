@@ -75,6 +75,7 @@ if flatpak install -y flathub \
     org.keepassxc.KeePassXC \
     it.mijorus.gearlever \
     net.davidotek.pupgui2 \
+    com.mattjakeman.ExtensionManager \
     org.fedoraproject.MediaWriter \
     org.prismlauncher.PrismLauncher; then
     echo "Flatpak packages installed successfully."
