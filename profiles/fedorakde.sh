@@ -111,6 +111,6 @@ echo "Remember to install these manually:"
 echo "  • Signal"
 echo "  • Vesktop"
 echo "  • osu!"
-echo "  • pear-desktop"
+echo "  • limusic"
 echo ""
 
