@@ -83,6 +83,7 @@ if flatpak install -y flathub \
     org.fedoraproject.MediaWriter \
     io.github.debasish_patra_1987.linuxthemestore \
     io.github.kolunmi.Bazaar \
+    org.localsend.localsend_app \
     org.prismlauncher.PrismLauncher; then
     echo "Flatpak packages installed successfully."
 else
