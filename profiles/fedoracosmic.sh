@@ -76,6 +76,7 @@ if flatpak install -y flathub \
     it.mijorus.gearlever \
     net.davidotek.pupgui2 \
     org.fedoraproject.MediaWriter \
+    org.localsend.localsend_app \
     org.prismlauncher.PrismLauncher; then
     echo "Flatpak packages installed successfully."
 else
