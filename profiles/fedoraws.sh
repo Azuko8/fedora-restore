@@ -77,7 +77,6 @@ if flatpak install -y flathub \
     net.davidotek.pupgui2 \
     io.github.debasish_patra_1987.linuxthemestore \
     com.mattjakeman.ExtensionManager \
-    org.fedoraproject.MediaWriter \
     org.localsend.localsend_app \
     org.prismlauncher.PrismLauncher; then
     echo "Flatpak packages installed successfully."
