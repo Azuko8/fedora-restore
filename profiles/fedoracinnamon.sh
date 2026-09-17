@@ -80,7 +80,6 @@ if flatpak install -y flathub \
     org.keepassxc.KeePassXC \
     it.mijorus.gearlever \
     net.davidotek.pupgui2 \
-    org.fedoraproject.MediaWriter \
     io.github.debasish_patra_1987.linuxthemestore \
     io.github.kolunmi.Bazaar \
     org.localsend.localsend_app \
