@@ -43,7 +43,7 @@ echo ""
 echo "Installing dnf packages..."
 echo ""
 
-if sudo dnf install -y fish kitty steam git micro; then
+if sudo dnf install -y fish kitty steam git micro obs-studio; then
     echo "dnf packages installed successfully."
 else
     echo "Error: dnf installation failed."
@@ -70,8 +70,6 @@ echo "Installing Flatpak packages..."
 echo ""
 
 if flatpak install -y flathub \
-    com.notesnook.Notesnook \
-    com.obsproject.Studio \
     org.keepassxc.KeePassXC \
     it.mijorus.gearlever \
     net.davidotek.pupgui2 \
