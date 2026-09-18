@@ -43,7 +43,7 @@ echo ""
 echo "Installing dnf packages..."
 echo ""
 
-if sudo dnf install -y fish kitty steam git micro gnome-tweaks obs-studio; then
+if sudo dnf install -y fish kitty steam git micro gnome-tweaks obs-studio btrfs-assistant; then
     echo "dnf packages installed successfully."
 else
     echo "Error: dnf installation failed."
