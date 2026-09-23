@@ -26,6 +26,7 @@ echo ""
 REMOVE_PACKAGES=(
     firefox
     gnome-contacts
+    gnome-software
 )
 
 echo "Removing ${#REMOVE_PACKAGES[@]} packages..."
