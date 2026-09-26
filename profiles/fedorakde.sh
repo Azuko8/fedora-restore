@@ -91,7 +91,7 @@ if flatpak install -y flathub \
     net.davidotek.pupgui2 \
     org.localsend.localsend_app \
     org.prismlauncher.PrismLauncher \
-    com.github.tchx84.Flatseal
+    com.github.tchx84.Flatseal \
     > /dev/null; then
     echo "Flatpak packages installed successfully."
 else
