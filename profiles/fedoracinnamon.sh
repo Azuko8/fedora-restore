@@ -80,6 +80,7 @@ if flatpak install -y flathub \
     io.github.kolunmi.Bazaar \
     org.localsend.localsend_app \
     org.prismlauncher.PrismLauncher \
+    com.github.tchx84.Flatseal \
     > /dev/null; then
     echo "Flatpak packages installed successfully."
 else
