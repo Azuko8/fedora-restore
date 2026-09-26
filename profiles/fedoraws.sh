@@ -76,8 +76,7 @@ if flatpak install -y flathub \
     com.mattjakeman.ExtensionManager \
     org.localsend.localsend_app \
     org.prismlauncher.PrismLauncher \
-    com.github.tchx84.Flatseal \
-    > /dev/null; then
+    com.github.tchx84.Flatseal > /dev/null; then
     echo "Flatpak packages installed successfully."
 else
     echo "Error: Flatpak installation failed."
